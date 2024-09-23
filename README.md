@@ -21,7 +21,7 @@ Table of Contents
 9.  [Technical Due Diligence Setup](#technical-due-diligence-setup)
 10. [Testing and Monitoring](#testing-and-monitoring)
 
-* * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 ### Tech Stack Overview
 
@@ -53,6 +53,9 @@ The kiosk system is built using **microservices architecture** and designed to s
 -   **Database Sharding and Replication**: PostgreSQL databases are sharded and replicated across multiple instances for better performance and fault tolerance.
 -   **Redis Caching**: Caches frequently requested data and ensures a quick response during peak times.
 -   **WebSockets**: Maintain real-time updates for kiosk status, helping to synchronize states across devices.
+
+  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
 
 ### Resilience and Scalability
 
@@ -105,38 +108,7 @@ The kiosk system is designed to support **offline mode**, ensuring continuity of
 -   **Queued Requests**: When the system goes offline, user actions are queued locally and synced with the central server once the connection is restored.
 -   **Conflict Resolution**: In the event of conflicting data (e.g., user check-ins), conflict resolution strategies are employed to ensure data consistency once the system is back online.
 
-### GitHub Pages Documentation
-
-The documentation for the entire kiosk system is hosted on GitHub Pages, ensuring that all architectural decisions, system designs, and diagrams are easily accessible for developers and stakeholders.
-
-**Structure:**
-
--   **Architecture Overview**: Explains the high-level design of the system.
--   **Dependency Injection & Microservices**: Details on service decoupling and reusability.
--   **Algorithms and Scaling**: Information on key algorithms (e.g., retry/backoff, rate-limiting, caching).
--   **Security and Compliance**: Documentation on JWT handling, encryption, and security policies.
--   **Disaster Recovery and Offline Mode**: Comprehensive guides on how the system handles outages and operates offline.
-
-The documentation is continuously updated as new features and considerations are implemented.
-
-### Technical Due Diligence Setup
-
-As part of the technical due diligence for the kiosk system, a comprehensive checklist is followed to ensure that the system is **scalable**, **resilient**, and meets **compliance standards**. The due diligence setup covers:
-
-1.  **System Architecture Review**: Detailed documentation and presentations for stakeholders, focusing on architecture scalability and redundancy.
-2.  **Resilience & Failover Testing**: Automated and manual tests to simulate service failures and observe recovery mechanisms.
-3.  **Offline Mode Validation**: Testing to ensure that the system functions as expected without an internet connection, including proper synchronization once the connection is restored.
-4.  **Security Audits**: Review of the security setup, including JWT handling, encryption, and data protection strategies.
-
-### Testing and Monitoring
-
-To ensure reliability, extensive testing and monitoring are employed:
-
--   **Unit and Integration Testing**: Ensures that individual services and their interactions function as expected.
--   **End-to-End (E2E) Testing**: Full-system testing simulates real-world user behavior, from check-in to payments.
--   **Performance Monitoring**: Tools like Prometheus and Grafana are used to track system performance, while alerts are set for anomalies such as high latency or service failures.
--   **Continuous Integration and Deployment (CI/CD)**: Automated pipelines ensure that code is tested and deployed to production with minimal human intervention.
-
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 ### Tech Stack Overview
 
@@ -183,7 +155,7 @@ To ensure reliability, extensive testing and monitoring are employed:
 -   **Prometheus & Grafana**: For monitoring system health, performance metrics, and generating alerts based on defined thresholds.
 -   **PagerDuty**: Used for incident management, sending alerts in case of downtime or critical service failures, ensuring rapid response and recovery.
 
-#### 9\. **Offline Mode (For Kiosk)**
+#### 9\. **Offline Mode **
 
 -   **Local Storage (IndexedDB, Service Workers)**: Enables the kiosk system to operate in offline mode by storing temporary data locally on the client side. Data is synced back to the server when the network connection is restored.
 
@@ -192,3 +164,26 @@ To ensure reliability, extensive testing and monitoring are employed:
 -   **GitHub (GitHub Pages)**: Used for version control, with GitHub Pages serving as the platform for project documentation. The documentation includes system architecture, design decisions, diagrams, and API references.
 
 This tech stack ensures the system is resilient, scalable, secure, and capable of handling real-time and offline requirements, making it suitable for the high demands of a multi-kiosk check-in system.
+
+
+### Technical Due Diligence Setup
+
+As part of the technical due diligence for the kiosk system, a comprehensive checklist is followed to ensure that the system is **scalable**, **resilient**, and meets **compliance standards**. The due diligence setup covers:
+
+1.  **System Architecture Review**: Detailed documentation and presentations for stakeholders, focusing on architecture scalability and redundancy.
+2.  **Resilience & Failover Testing**: Automated and manual tests to simulate service failures and observe recovery mechanisms.
+3.  **Offline Mode Validation**: Testing to ensure that the system functions as expected without an internet connection, including proper synchronization once the connection is restored.
+4.  **Security Audits**: Review of the security setup, including JWT handling, encryption, and data protection strategies.
+
+### Testing and Monitoring
+
+To ensure reliability, extensive testing and monitoring are employed:
+
+-   **Unit and Integration Testing**: Ensures that individual services and their interactions function as expected.
+-   **End-to-End (E2E) Testing**: Full-system testing simulates real-world user behavior, from check-in to payments.
+-   **Performance Monitoring**: Tools like Prometheus and Grafana are used to track system performance, while alerts are set for anomalies such as high latency or service failures.
+-   **Continuous Integration and Deployment (CI/CD)**: Automated pipelines ensure that code is tested and deployed to production with minimal human intervention.
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
