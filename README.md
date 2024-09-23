@@ -23,40 +23,6 @@ Table of Contents
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-### Tech Stack Overview
-
-#### Backend:
-
--   **Node.js/NestJS**: API and microservices framework, facilitating loose coupling and service reuse.
--   **PostgreSQL**: High-performance database with sharding and replication features.
--   **Supabase**: Supabase's PostgreSQL instance for scalable database hosting, coupled with its built-in authentication and real-time capabilities.
--   **Redis**: In-memory data store for caching and queue management.
--   **Supabase Functions**: Edge-based, serverless functions for fast, distributed request processing.
-
-#### Frontend:
-
--   **React.js (Next.js)**: Frontend with Server-Side Rendering (SSR) for fast load times, combined with static rendering for pre-generated pages.
--   **React Query**: Handles caching and synchronization of remote data with local state.
-
-#### Other Components:
-
--   **GraphQL & REST APIs**: Flexible and comprehensive APIs for client requests.
--   **WebSockets**: Real-time communication between kiosks and the backend for live updates.
--   **Docker & Kubernetes**: Container orchestration for managing microservices deployment.
-
-### System Architecture
-
-The kiosk system is built using **microservices architecture** and designed to support a distributed network of kiosks across various locations. It includes several key components to ensure it can scale and remain resilient:
-
--   **Microservices**: Modular services for check-ins, payments, notifications, etc., all communicating via APIs.
--   **API Gateway**: Centralized access point for all requests, providing load balancing and rate limiting.
--   **Database Sharding and Replication**: PostgreSQL databases are sharded and replicated across multiple instances for better performance and fault tolerance.
--   **Redis Caching**: Caches frequently requested data and ensures a quick response during peak times.
--   **WebSockets**: Maintain real-time updates for kiosk status, helping to synchronize states across devices.
-
-  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-
-
 ### Resilience and Scalability
 
 **Key Features:**
