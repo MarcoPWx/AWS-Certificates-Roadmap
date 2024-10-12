@@ -1,4 +1,4 @@
-# AWS Cloud & Solution Architect playground 
+# AWS Cloud foundations
 
 Personal exploration project for full-stack development with LLM's and modern cloud architecture.
 
