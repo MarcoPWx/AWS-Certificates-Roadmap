@@ -1,4 +1,4 @@
-# Fullstack Project - ** UNNAMED ** 
+# AWS Cloud & Solution Architect playground 
 
 Personal exploration project for full-stack development with LLM's and modern cloud architecture.
 
