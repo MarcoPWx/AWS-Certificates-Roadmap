@@ -1,5 +1,8 @@
 # Resources for AWS Cloud Practitioner
 
+# Intro course:
+
+https://cloud.contentraven.com/awspartners/TutorialsDojo/content-viewer/572014/1/11/0
 
 ## AWS Cloud Quest and SimuLearn Learning Plans
 
