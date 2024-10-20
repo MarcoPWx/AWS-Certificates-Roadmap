@@ -4,7 +4,22 @@
 
 https://cloud.contentraven.com/awspartners/TutorialsDojo/content-viewer/572014/1/11/0
 
-# Watch all of it. https://www.youtube.com/watch?v=8pE53Cl3sWs
+
+
+# Watch all of it (every morning before and after work)
+
+#1
+Lucy: https://www.youtube.com/watch?v=8pE53Cl3sWs
+
+#2
+Bytebytego: https://www.youtube.com/channel/UCZgt6AzoyjslHTC9dz0UoTw / https://blog.bytebytego.com/?utm_source=site
+
+
+# Technical interview prep:
+
+https://bytebytego.com
+
+
 
 ## AWS Cloud Quest and SimuLearn Learning Plans
 
