@@ -4,6 +4,8 @@
 
 https://cloud.contentraven.com/awspartners/TutorialsDojo/content-viewer/572014/1/11/0
 
+# Watch all of it. https://www.youtube.com/watch?v=8pE53Cl3sWs
+
 ## AWS Cloud Quest and SimuLearn Learning Plans
 
 - **AWS Cloud Quest: Cloud Practitioner**
