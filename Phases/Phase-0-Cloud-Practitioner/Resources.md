@@ -2,23 +2,23 @@
 
 # Intro course:
 
-https://cloud.contentraven.com/awspartners/TutorialsDojo/content-viewer/572014/1/11/0
+- **AWS Certified Cloud Practitioner Exam Training**
+https://www.youtube.com/watch?v=JsmhEgIV1mQ
+- https://www.udemy.com/course/aws-certified-cloud-practitioner-new/
+
+- **Practice Exams - AWS Certified Cloud Practitioner**
+  - [Practice Exams](https://www.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/?couponCode=LETSLEARNNOW) by Jon Bonso
 
 
+## Adrian Cantrill's Courses
 
-# Watch all of it (every morning before and after work)
+- **AWS Certified Cloud Practitioner Course**
+  - [Adrian Cantrill's Course](https://learn.cantrill.io/p/aws-certified-cloud-practitioner)
 
-#1
-Lucy: https://www.youtube.com/watch?v=8pE53Cl3sWs
+## A Cloud Guru
 
-#2
-Bytebytego: https://www.youtube.com/channel/UCZgt6AzoyjslHTC9dz0UoTw / https://blog.bytebytego.com/?utm_source=site
-
-
-# Technical interview prep:
-
-https://bytebytego.com
-
+- **AWS Certified Cloud Practitioner Course**
+  - [A Cloud Guru Course](https://acloudguru.com/course/aws-certified-cloud-practitioner)
 
 
 ## AWS Cloud Quest and SimuLearn Learning Plans
@@ -38,40 +38,13 @@ https://bytebytego.com
   - [Trusted Institute AWS Certified Cloud Practitioner Practice Exam](https://trustedinstitute.com/practice/aws-certified-cloud-practitioner/)
 
 
-## Tutorials Dojo
+# Exam time: 
 
 - **Practice Exams**
   - [Tutorials Dojo Practice Exams](https://portal.tutorialsdojo.com/product/aws-certified-cloud-practitioner-practice-exams/)
-- 
 
 - **Tutorials Dojo AWS Training Content**
   - [Tutorials Dojo AWS Training Content](https://cloud.contentraven.com/awspartners/TutorialsDojo/content-viewer/572014/1/11/0)
-
-
-# Pick one and stick to it for the Exam revision:
-
-## Udemy Courses and Practice Exams (with coupon codes)
-
-- **AWS Certified Cloud Practitioner Exam Training**
-  - [AWS Certified Cloud Practitioner Exam Training](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/)
-- **Practice Exams - AWS Certified Cloud Practitioner**
-  - [Practice Exams](https://www.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/?couponCode=LETSLEARNNOW) by Jon Bonso
-
-
-## Adrian Cantrill's Courses
-
-- **AWS Certified Cloud Practitioner Course**
-  - [Adrian Cantrill's Course](https://learn.cantrill.io/p/aws-certified-cloud-practitioner)
-
-## A Cloud Guru
-
-- **AWS Certified Cloud Practitioner Course**
-  - [A Cloud Guru Course](https://acloudguru.com/course/aws-certified-cloud-practitioner)
-
-
-# Exam time: 
-
-## Official AWS Training
 
 - **AWS Certified Cloud Practitioner Exam Guide**
   - [Exam Guide](https://aws.amazon.com/certification/certified-cloud-practitioner/)
